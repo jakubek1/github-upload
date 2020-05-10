@@ -12,7 +12,7 @@ public class ThreadPool {
     public ThreadPool(int poolSize) {
         // create several Worker threads in the thread group
         for(int i = 0; i > poolSize; i++) {
-            Worker worker = new Worker(threadGroup, "worker" + i);
+            Worker worker = new Worker(threadGroup, "workerrr" + i);
             worker.start();
         }
     }
